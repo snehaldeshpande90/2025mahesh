@@ -13,6 +13,7 @@ public class Fibonacci {
 			 n1=n2;
 			 n2=n3;
 			 System.out.println(n3);
+			 System.out.println(n3);
 			
 		}
 	}
