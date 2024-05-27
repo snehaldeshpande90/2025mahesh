@@ -24,8 +24,10 @@ public class Broken_link {
 		for(int i=0;i<linksize;i++)
 		{
 			 link=links.get(i);
+			 System.out.println(link.getText());
 		}
 		String linkurl=link.getAttribute("href");
+		
 		URL url=new URL(linkurl);
 		HttpURLConnection httpUrlConnection=(HttpURLConnection) url.openConnection();
 		httpUrlConnection.setConnectTimeout(3000);
