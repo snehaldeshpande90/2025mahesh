@@ -9,6 +9,7 @@ public class HowToDeleteElementfromArray {
 		System.out.println("hello");
 		System.out.println();
 		System.out.println("s");
+		System.out.println("Aug");
 	}
 
 }
