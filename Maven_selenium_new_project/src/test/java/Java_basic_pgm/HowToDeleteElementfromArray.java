@@ -7,6 +7,7 @@ public class HowToDeleteElementfromArray {
 
 		
 		System.out.println("hello");
+		System.out.println();
 	}
 
 }
