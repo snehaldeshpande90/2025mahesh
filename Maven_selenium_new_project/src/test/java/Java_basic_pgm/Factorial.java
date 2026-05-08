@@ -9,7 +9,7 @@ public class Factorial {
 		int fact=1;
 		for(int i=1;i<=5;i++)
 		{
-			fact=fact*x;
+			
 		}
 		System.out.println("snehalfact");
 	}
