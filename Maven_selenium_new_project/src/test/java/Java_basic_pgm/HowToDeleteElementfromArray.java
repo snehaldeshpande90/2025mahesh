@@ -20,6 +20,11 @@ int arr[]= {1,2,3,4,5};//arr size is 5
 			}
 		}
 		
+		System.out.println("hello");
+		System.out.println();
+		System.out.println("s");
+		System.out.println("Aug");
+		
 		
 	}
 
