@@ -9,7 +9,7 @@ public class PalindromeString {
 
 		
 		 String reverse = ""; // Objects of String class  
-	     String original="mime";
+	     String original="mim";
 	     
 	      int length = original.length();  
 	      

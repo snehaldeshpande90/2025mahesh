@@ -15,7 +15,7 @@ public class pyramid_star_pgm {
 			  
 			  System.out.print(" ");//print()method for same line print not below
 			  
-			  }
+				  }
 			 
 			for(int k=1;k<=i;k++)
 			

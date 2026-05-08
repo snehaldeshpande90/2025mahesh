@@ -4,14 +4,14 @@ public class PalindromeExample {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		 int n=123;
+		 int n=124;
 		 int temp=n;
 		 int r;
 		 int sum=0;
 		 while(n>0)
 		 {
 			 r=n%10;//
-			 System.out.println(r);
+			 
 			 sum=(sum*10)+r;
 			 n=n/10;
 			 
@@ -19,11 +19,11 @@ public class PalindromeExample {
 		 }
 		 if(temp==sum)
 		 {
-			 //System.out.println("Palindrome");
+			 System.out.println("Palindrome");
 		 }
 		 else
 		 {
-			 //System.out.println("notPalindrome");
+			 System.out.println("notPalindrome");
 		 }
 		
 	}

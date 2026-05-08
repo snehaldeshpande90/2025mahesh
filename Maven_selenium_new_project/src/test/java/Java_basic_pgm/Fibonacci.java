@@ -11,10 +11,9 @@ public class Fibonacci {
 		{
 			 n3=n1+n2;//swap value n1<--n2 and n2<--n3
 			 n1=n2;
-			 n2=n3;
+			 n2=n3;;
 			 System.out.println(n3);
-			 System.out.println(n3);
-			
+			 
 		}
 	}
 

@@ -5,7 +5,7 @@ public class PrintDuplicateChar {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		String str1= new String("aabkkc");    
+		String str1= "aabbcddee"; 
         int Count=0;   
             
         //Converts given string into character array    
