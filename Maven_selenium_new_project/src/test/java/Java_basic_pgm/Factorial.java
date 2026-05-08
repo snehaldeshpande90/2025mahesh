@@ -11,7 +11,7 @@ public class Factorial {
 		{
 			fact=fact*x;
 		}
-		System.out.println(fact);
+		System.out.println("snehalfact");
 	}
 
 }
