@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 public class GoogleTest {
     @Test
     public void testGoogleTitle() {
-        // हेडलेस मोड सेट करण्यासाठी खालील ३ ओळी जोडा
+        
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--headless"); 
         options.addArguments("--no-sandbox");
