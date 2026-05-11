@@ -12,9 +12,7 @@ public class Factorial {
 			x=i*i;
 		}
 		System.out.println("snehalfact");
-		System.out.println("hello");
-		System.out.println("hello");
-		
+
 	}
 
 }
