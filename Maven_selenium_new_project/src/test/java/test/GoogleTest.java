@@ -20,6 +20,8 @@ public class GoogleTest {
         driver.get("https://www.google.com");
         String title = driver.getTitle();
         Assert.assertEquals(title, "Google");
+        System.out.println();
         driver.quit();
+        
     }
 }
