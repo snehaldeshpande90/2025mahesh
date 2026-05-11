@@ -1,17 +1,8 @@
-# Java class files
-*.class
-
-# Log files
-*.log
-
-# External folders
-target/
-bin/
-
-# Eclipse specific files
+/target/
 .settings/
 .project
 .classpath
-
-# TestNG reports
 test-output/
+*.class
+bin/
+*.log
