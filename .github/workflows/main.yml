@@ -22,4 +22,5 @@ jobs:
         cache: maven
 
     - name: Run Selenium Tests
+      working-directory: "./Maven_selenium_new_project"
       run: mvn test
