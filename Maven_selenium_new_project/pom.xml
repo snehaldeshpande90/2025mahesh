@@ -45,10 +45,6 @@
     <version>2.0.7</version>
     <scope>test</scope>
 </dependency>
-  	<dependency>
-  		<groupId>mahesh.org</groupId>
-  		<artifactId>Maven_amezon</artifactId>
-  		<version>0.0.1-SNAPSHOT</version>
-  	</dependency>
+  	
   </dependencies>
 </project>
