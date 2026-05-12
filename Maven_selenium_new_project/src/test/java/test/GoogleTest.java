@@ -48,7 +48,7 @@ public class GoogleTest {
         String title = driver.getTitle();
         
         // जाणीवपूर्वक टेस्ट फेल करण्यासाठी खालील ओळ बदलू शकता (उदा. "Google123")
-        Assert.assertEquals(title, "Google"); 
+        Assert.assertEquals(title, "Google123"); 
         test.pass("Title Match successfully!");
     }
 
