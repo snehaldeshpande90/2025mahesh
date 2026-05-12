@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="pkg1.newclass"/>
+      <class name="test.GoogleTest"/>
     </classes>
   </test>
 </suite>
