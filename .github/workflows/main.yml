@@ -12,10 +12,10 @@ jobs:
 
     steps:
     - name: Checkout Code
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
     - name: Set up JDK 17
-      uses: actions/setup-java@v3
+      uses: actions/setup-java@v4
       with:
         java-version: '17'
         distribution: 'temurin'
@@ -24,3 +24,10 @@ jobs:
     - name: Run Selenium Tests
       working-directory: "./Maven_selenium_new_project"
       run: mvn test
+
+    - name: Upload Extent Report
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: Selenium-Execution-Report
+        path: Maven_selenium_new_project/target/ExtentReport.html
