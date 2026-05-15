@@ -15,7 +15,7 @@ public class LoginTest extends BaseTest {
     public Object[][] getData() throws IOException {
         
         // फाईलचा अचूक पाथ (image_a2e656.jpg नुसार)
-        String path = System.getProperty("user.dir") + "\\src\\test\\resources\\TestData.xlsx";
+    	String path = System.getProperty("user.dir") + "/src/test/resources/TestData.xlsx";
         String sheetName = "Sheet1";
 
         int totalRows = ExcelUtils.getRowCount(path, sheetName);
