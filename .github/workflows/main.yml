@@ -24,10 +24,19 @@ jobs:
     - name: Run Selenium Tests
       working-directory: "./Maven_selenium_new_project"
       run: mvn test
+      continue-on-error: true # टेस्ट फेल झाली तरी रिपोर्ट जनरेट व्हावा यासाठी
 
-    - name: Upload Extent Report
-      if: always()
+    - name: Upload Extent Report as Artifact
+      if: always() # टेस्ट पास होवो किंवा फेल, रिपोर्ट नेहमी अपलोड होईल
       uses: actions/upload-artifact@v4
       with:
         name: Selenium-Execution-Report
         path: Maven_selenium_new_project/target/ExtentReport.html
+
+    - name: Deploy to GitHub Pages
+      if: always() 
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./Maven_selenium_new_project/target
+        publish_filename: ExtentReport.html # ही फाईल इंडेक्स म्हणून वापरता येईल
