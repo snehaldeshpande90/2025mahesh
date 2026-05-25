@@ -4,7 +4,7 @@
 
 ### 📊 Automation Test Report (Live)
 माझा लेटेस्ट टेस्ट रिपोर्ट पाहण्यासाठी खालील लिंकवर क्लिक करा:
-👉 [View Test Report](https://snehaldeshpande90.github.io/2025mahesh/Maven_selenium_new_project/test-output/emailable-report.html)
+👉 [View Test Report](https://snehaldeshpande90.github.io/2025mahesh/index.html)
 
 ### 🛠️ Tools Used
 * **Language:** Java
