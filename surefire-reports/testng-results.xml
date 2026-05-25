@@ -2,30 +2,30 @@
 <testng-results ignored="0" total="3" passed="1" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-25T09:37:36 UTC" name="Suite" finished-at="2026-05-25T09:39:21 UTC" duration-ms="105049">
+  <suite started-at="2026-05-25T09:38:49 UTC" name="Suite" finished-at="2026-05-25T09:40:38 UTC" duration-ms="109117">
     <groups>
     </groups>
-    <test started-at="2026-05-25T09:37:36 UTC" name="Test" finished-at="2026-05-25T09:39:21 UTC" duration-ms="105049">
+    <test started-at="2026-05-25T09:38:49 UTC" name="Test" finished-at="2026-05-25T09:40:38 UTC" duration-ms="109117">
       <class name="com.tests.SearchTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.tests.SearchTest@6973bf95]" started-at="2026-05-25T09:37:36 UTC" name="setup" finished-at="2026-05-25T09:37:45 UTC" duration-ms="8931" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tests.SearchTest@6973bf95]" started-at="2026-05-25T09:38:49 UTC" name="setup" finished-at="2026-05-25T09:38:56 UTC" duration-ms="6776" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyGoogleSearch()[pri:0, instance:com.tests.SearchTest@6973bf95]" started-at="2026-05-25T09:37:45 UTC" name="verifyGoogleSearch" finished-at="2026-05-25T09:37:47 UTC" duration-ms="1334" status="PASS">
+        <test-method signature="verifyGoogleSearch()[pri:0, instance:com.tests.SearchTest@6973bf95]" started-at="2026-05-25T09:38:56 UTC" name="verifyGoogleSearch" finished-at="2026-05-25T09:38:57 UTC" duration-ms="1234" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyGoogleSearch -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.SearchTest@6973bf95]" started-at="2026-05-25T09:37:47 UTC" name="tearDown" finished-at="2026-05-25T09:37:47 UTC" duration-ms="338" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.SearchTest@6973bf95]" started-at="2026-05-25T09:38:57 UTC" name="tearDown" finished-at="2026-05-25T09:38:58 UTC" duration-ms="305" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.tests.SearchTest -->
       <class name="com.tests.LoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.tests.LoginTest@96def03]" started-at="2026-05-25T09:37:48 UTC" name="setup" finished-at="2026-05-25T09:37:48 UTC" duration-ms="319" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tests.LoginTest@96def03]" started-at="2026-05-25T09:38:58 UTC" name="setup" finished-at="2026-05-25T09:38:59 UTC" duration-ms="275" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.tests.LoginTest@96def03]" started-at="2026-05-25T09:37:48 UTC" name="verifyLogin" data-provider="loginData" finished-at="2026-05-25T09:38:32 UTC" duration-ms="44244" status="FAIL">
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.tests.LoginTest@96def03]" started-at="2026-05-25T09:38:59 UTC" name="verifyLogin" data-provider="loginData" finished-at="2026-05-25T09:39:47 UTC" duration-ms="48596" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -49,16 +49,16 @@
 Build info: version: '4.21.0', revision: '79ed462ef4'
 System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.17.0-1013-azure', java.version: '17.0.19'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.167, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: /tmp/org.chromium.Chromium....}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:44949}, goog:processID: 2607, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:44949/devtoo..., se:cdpVersion: 148.0.7778.167, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a7386db842500382cb1177f62a3350b5]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.167, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: /tmp/org.chromium.Chromium....}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:34523}, goog:processID: 2520, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:34523/devtoo..., se:cdpVersion: 148.0.7778.167, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a0e04339602859a59ca1fd54fe944ecd]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.name: username (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '4.21.0', revision: '79ed462ef4'
 System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.17.0-1013-azure', java.version: '17.0.19'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.167, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: /tmp/org.chromium.Chromium....}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:44949}, goog:processID: 2607, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:44949/devtoo..., se:cdpVersion: 148.0.7778.167, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a7386db842500382cb1177f62a3350b5
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.167, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: /tmp/org.chromium.Chromium....}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:34523}, goog:processID: 2520, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:34523/devtoo..., se:cdpVersion: 148.0.7778.167, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a0e04339602859a59ca1fd54fe944ecd
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
 at com.pages.LoginPage.login(LoginPage.java:26)
@@ -101,15 +101,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.LoginTest@96def03]" started-at="2026-05-25T09:38:32 UTC" name="tearDown" finished-at="2026-05-25T09:38:33 UTC" duration-ms="99" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.LoginTest@96def03]" started-at="2026-05-25T09:39:47 UTC" name="tearDown" finished-at="2026-05-25T09:39:47 UTC" duration-ms="87" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.tests.LoginTest@96def03]" started-at="2026-05-25T09:38:33 UTC" name="setup" finished-at="2026-05-25T09:38:33 UTC" duration-ms="325" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tests.LoginTest@96def03]" started-at="2026-05-25T09:39:47 UTC" name="setup" finished-at="2026-05-25T09:39:48 UTC" duration-ms="262" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.tests.LoginTest@96def03]" started-at="2026-05-25T09:38:33 UTC" name="verifyLogin" data-provider="loginData" finished-at="2026-05-25T09:39:21 UTC" duration-ms="48317" status="FAIL">
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.tests.LoginTest@96def03]" started-at="2026-05-25T09:39:48 UTC" name="verifyLogin" data-provider="loginData" finished-at="2026-05-25T09:40:38 UTC" duration-ms="50714" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -133,16 +133,16 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 Build info: version: '4.21.0', revision: '79ed462ef4'
 System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.17.0-1013-azure', java.version: '17.0.19'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.167, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: /tmp/org.chromium.Chromium....}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:43411}, goog:processID: 2832, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:43411/devtoo..., se:cdpVersion: 148.0.7778.167, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 457e73b4bb12638e16ff099b3d446fb0]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.167, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: /tmp/org.chromium.Chromium....}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:45221}, goog:processID: 2806, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:45221/devtoo..., se:cdpVersion: 148.0.7778.167, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4a8c677defff1d585d72e6b4aabe4ef4]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.name: username (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '4.21.0', revision: '79ed462ef4'
 System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.17.0-1013-azure', java.version: '17.0.19'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.167, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: /tmp/org.chromium.Chromium....}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:43411}, goog:processID: 2832, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:43411/devtoo..., se:cdpVersion: 148.0.7778.167, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 457e73b4bb12638e16ff099b3d446fb0
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.167, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: /tmp/org.chromium.Chromium....}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:45221}, goog:processID: 2806, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:45221/devtoo..., se:cdpVersion: 148.0.7778.167, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4a8c677defff1d585d72e6b4aabe4ef4
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
 at com.pages.LoginPage.login(LoginPage.java:26)
@@ -185,7 +185,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.LoginTest@96def03]" started-at="2026-05-25T09:39:21 UTC" name="tearDown" finished-at="2026-05-25T09:39:21 UTC" duration-ms="95" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.LoginTest@96def03]" started-at="2026-05-25T09:40:38 UTC" name="tearDown" finished-at="2026-05-25T09:40:38 UTC" duration-ms="82" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
