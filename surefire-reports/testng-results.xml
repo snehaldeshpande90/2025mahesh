@@ -2,30 +2,30 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-07-02T08:05:55 UTC" name="Suite" finished-at="2026-07-02T08:06:17 UTC" duration-ms="22313">
+  <suite started-at="2026-07-02T08:15:17 UTC" name="Suite" finished-at="2026-07-02T08:15:38 UTC" duration-ms="21103">
     <groups>
     </groups>
-    <test started-at="2026-07-02T08:05:55 UTC" name="Test" finished-at="2026-07-02T08:06:17 UTC" duration-ms="22313">
+    <test started-at="2026-07-02T08:15:17 UTC" name="Test" finished-at="2026-07-02T08:15:38 UTC" duration-ms="21103">
       <class name="com.tests.SearchTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.tests.SearchTest@6973bf95]" started-at="2026-07-02T08:05:55 UTC" name="setup" finished-at="2026-07-02T08:06:07 UTC" duration-ms="11861" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tests.SearchTest@6973bf95]" started-at="2026-07-02T08:15:17 UTC" name="setup" finished-at="2026-07-02T08:15:26 UTC" duration-ms="9381" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyGoogleSearch()[pri:0, instance:com.tests.SearchTest@6973bf95]" started-at="2026-07-02T08:06:07 UTC" name="verifyGoogleSearch" finished-at="2026-07-02T08:06:09 UTC" duration-ms="1960" status="PASS">
+        <test-method signature="verifyGoogleSearch()[pri:0, instance:com.tests.SearchTest@6973bf95]" started-at="2026-07-02T08:15:26 UTC" name="verifyGoogleSearch" finished-at="2026-07-02T08:15:28 UTC" duration-ms="1466" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyGoogleSearch -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.SearchTest@6973bf95]" started-at="2026-07-02T08:06:09 UTC" name="tearDown" finished-at="2026-07-02T08:06:09 UTC" duration-ms="399" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.SearchTest@6973bf95]" started-at="2026-07-02T08:15:28 UTC" name="tearDown" finished-at="2026-07-02T08:15:28 UTC" duration-ms="334" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.tests.SearchTest -->
       <class name="com.tests.LoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.tests.LoginTest@96def03]" started-at="2026-07-02T08:06:10 UTC" name="setup" finished-at="2026-07-02T08:06:11 UTC" duration-ms="362" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tests.LoginTest@96def03]" started-at="2026-07-02T08:15:29 UTC" name="setup" finished-at="2026-07-02T08:15:30 UTC" duration-ms="317" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.tests.LoginTest@96def03]" started-at="2026-07-02T08:06:11 UTC" name="verifyLogin" data-provider="loginData" finished-at="2026-07-02T08:06:14 UTC" duration-ms="3778" status="PASS">
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.tests.LoginTest@96def03]" started-at="2026-07-02T08:15:30 UTC" name="verifyLogin" data-provider="loginData" finished-at="2026-07-02T08:15:34 UTC" duration-ms="4485" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -46,15 +46,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.LoginTest@96def03]" started-at="2026-07-02T08:06:14 UTC" name="tearDown" finished-at="2026-07-02T08:06:14 UTC" duration-ms="85" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.LoginTest@96def03]" started-at="2026-07-02T08:15:34 UTC" name="tearDown" finished-at="2026-07-02T08:15:34 UTC" duration-ms="83" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.tests.LoginTest@96def03]" started-at="2026-07-02T08:06:14 UTC" name="setup" finished-at="2026-07-02T08:06:15 UTC" duration-ms="326" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tests.LoginTest@96def03]" started-at="2026-07-02T08:15:34 UTC" name="setup" finished-at="2026-07-02T08:15:34 UTC" duration-ms="327" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.tests.LoginTest@96def03]" started-at="2026-07-02T08:06:15 UTC" name="verifyLogin" data-provider="loginData" finished-at="2026-07-02T08:06:17 UTC" duration-ms="2315" status="PASS">
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.tests.LoginTest@96def03]" started-at="2026-07-02T08:15:34 UTC" name="verifyLogin" data-provider="loginData" finished-at="2026-07-02T08:15:38 UTC" duration-ms="3630" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -75,7 +75,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.LoginTest@96def03]" started-at="2026-07-02T08:06:17 UTC" name="tearDown" finished-at="2026-07-02T08:06:17 UTC" duration-ms="83" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.LoginTest@96def03]" started-at="2026-07-02T08:15:38 UTC" name="tearDown" finished-at="2026-07-02T08:15:38 UTC" duration-ms="81" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
