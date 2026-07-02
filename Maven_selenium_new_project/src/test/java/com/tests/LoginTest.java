@@ -52,6 +52,7 @@ public class LoginTest extends BaseTest {
             // इनवॅलिड लॉगिनसाठी पेज लॉगिनवरच राहते का ते तपासणे
             Assert.assertTrue(driver.getCurrentUrl().contains("login"), "Still not on login page!");
             test.pass("Invalid login handled correctly as expected.");
+            System.out.println("hello test");
         }
     }
 }
