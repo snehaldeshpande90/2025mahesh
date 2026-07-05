@@ -7,7 +7,8 @@ import org.testng.annotations.BeforeMethod;
 import java.time.Duration;
 import io.github.bonigarcia.wdm.WebDriverManager; // WebDriverManager import करा
 
-public class BaseTest {
+public class BaseTest 
+{
     public WebDriver driver;
 
     @BeforeMethod
@@ -25,7 +26,7 @@ public class BaseTest {
     public void tearDown() {
         // ब्राउझर बंद करणे गरजेचे आहे, जेणेकरून बॅकग्राउंडमध्ये मेमरी वापरली जाणार नाही
         if (driver != null) {
-            driver.quit();
+            //driver.quit();
         }
     }
 }
