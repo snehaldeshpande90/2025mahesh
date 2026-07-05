@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite">
-  <test thread-count="5" name="Test">
+<suite name="MyInfo_Module_Suite">
+  
+  <test name="Personal_Details_Test">
     <classes>
-      <class name="com.tests.SearchTest"/>
-      <class name="com.tests.LoginTest"/>
+      <class name="com.orangehrm.tests.MyInfoPersonalTest"/>
     </classes>
   </test>
+
+  <test name="Contact_Details_Test">
+    <classes>
+      <class name="com.orangehrm.tests.MyInfoContactTest"/>
+    </classes>
+  </test>
+
 </suite>
