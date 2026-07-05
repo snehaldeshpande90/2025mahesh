@@ -1,4 +1,4 @@
-# Created at 2026-07-05T08:13:50.349
+# Created at 2026-07-05T08:27:52.121
 org.testng.TestNGException: 
 Cannot find class in classpath: com.tests.SearchTest
 	at org.testng.xml.XmlClass.loadClass(XmlClass.java:74)
