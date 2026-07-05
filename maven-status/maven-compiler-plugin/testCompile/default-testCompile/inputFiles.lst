@@ -1,3 +1,7 @@
 /home/runner/work/2025mahesh/2025mahesh/Maven_selenium_new_project/src/test/java/com/base/BaseTest.java
+/home/runner/work/2025mahesh/2025mahesh/Maven_selenium_new_project/src/test/java/com/orangehrm/pages/ContactDetailsPage.java
 /home/runner/work/2025mahesh/2025mahesh/Maven_selenium_new_project/src/test/java/com/orangehrm/pages/LoginPage.java
+/home/runner/work/2025mahesh/2025mahesh/Maven_selenium_new_project/src/test/java/com/orangehrm/pages/PersonalDetailsPage.java
 /home/runner/work/2025mahesh/2025mahesh/Maven_selenium_new_project/src/test/java/com/orangehrm/tests/LoginTest.java
+/home/runner/work/2025mahesh/2025mahesh/Maven_selenium_new_project/src/test/java/com/orangehrm/tests/MyInfoContactTest.java
+/home/runner/work/2025mahesh/2025mahesh/Maven_selenium_new_project/src/test/java/com/orangehrm/tests/MyInfoPersonalTest.java
