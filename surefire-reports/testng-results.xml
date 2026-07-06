@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="0" failed="0" skipped="2">
+<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-07-06T12:34:44 UTC" name="MyInfo_Module_Suite" finished-at="2026-07-06T12:34:52 UTC" duration-ms="7269">
+  <suite started-at="2026-07-06T15:02:50 UTC" name="MyInfo_Module_Suite" finished-at="2026-07-06T15:02:52 UTC" duration-ms="2791">
     <groups>
     </groups>
-    <test started-at="2026-07-06T12:34:44 UTC" name="Personal_Details_Test" finished-at="2026-07-06T12:34:51 UTC" duration-ms="6992">
-      <class name="com.orangehrm.tests.MyInfoPersonalTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.orangehrm.tests.MyInfoPersonalTest@6b26e945]" started-at="2026-07-06T12:34:44 UTC" name="setup" finished-at="2026-07-06T12:34:51 UTC" duration-ms="6955" status="FAIL">
+    <test started-at="2026-07-06T15:02:50 UTC" name="MyInfo_Test" finished-at="2026-07-06T15:02:52 UTC" duration-ms="2791">
+      <class name="com.orangehrm.tests.MyInfoTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.orangehrm.tests.MyInfoTest@6b26e945]" started-at="2026-07-06T15:02:50 UTC" name="setup" finished-at="2026-07-06T15:02:52 UTC" duration-ms="2757" status="FAIL">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Response code 500. Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause. 
-Host info: host: 'runnervmkkn4f', ip: '10.1.0.178'
+Host info: host: 'runnervmkkn4f', ip: '10.1.0.93'
 Build info: version: '4.26.0', revision: '8ccf0219d7'
 System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.17.0-1018-azure', java.version: '17.0.19'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
@@ -19,7 +19,7 @@ Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goo
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause. 
-Host info: host: 'runnervmkkn4f', ip: '10.1.0.178'
+Host info: host: 'runnervmkkn4f', ip: '10.1.0.93'
 Build info: version: '4.26.0', revision: '8ccf0219d7'
 System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.17.0-1018-azure', java.version: '17.0.19'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
@@ -37,7 +37,7 @@ at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:51)
-at com.base.BaseTest.setup(BaseTest.java:19)
+at com.base.BaseTest.setup(BaseTest.java:16)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -80,11 +80,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyPersonalDetailsUpdate()[pri:0, instance:com.orangehrm.tests.MyInfoPersonalTest@6b26e945]" started-at="2026-07-06T12:34:51 UTC" name="verifyPersonalDetailsUpdate" finished-at="2026-07-06T12:34:51 UTC" duration-ms="0" status="SKIP">
+        <test-method signature="verifyPersonalDetailsUpdate()[pri:0, instance:com.orangehrm.tests.MyInfoTest@6b26e945]" started-at="2026-07-06T15:02:52 UTC" name="verifyPersonalDetailsUpdate" finished-at="2026-07-06T15:02:52 UTC" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Response code 500. Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause. 
-Host info: host: 'runnervmkkn4f', ip: '10.1.0.178'
+Host info: host: 'runnervmkkn4f', ip: '10.1.0.93'
 Build info: version: '4.26.0', revision: '8ccf0219d7'
 System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.17.0-1018-azure', java.version: '17.0.19'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
@@ -92,7 +92,7 @@ Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goo
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause. 
-Host info: host: 'runnervmkkn4f', ip: '10.1.0.178'
+Host info: host: 'runnervmkkn4f', ip: '10.1.0.93'
 Build info: version: '4.26.0', revision: '8ccf0219d7'
 System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.17.0-1018-azure', java.version: '17.0.19'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
@@ -110,7 +110,7 @@ at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:51)
-at com.base.BaseTest.setup(BaseTest.java:19)
+at com.base.BaseTest.setup(BaseTest.java:16)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -153,165 +153,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPersonalDetailsUpdate -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.tests.MyInfoPersonalTest@6b26e945]" started-at="2026-07-06T12:34:51 UTC" name="tearDown" finished-at="2026-07-06T12:34:51 UTC" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.tests.MyInfoTest@6b26e945]" started-at="2026-07-06T15:02:52 UTC" name="tearDown" finished-at="2026-07-06T15:02:52 UTC" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.orangehrm.tests.MyInfoPersonalTest -->
-    </test> <!-- Personal_Details_Test -->
-    <test started-at="2026-07-06T12:34:51 UTC" name="Contact_Details_Test" finished-at="2026-07-06T12:34:52 UTC" duration-ms="260">
-      <class name="com.orangehrm.tests.MyInfoContactTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.orangehrm.tests.MyInfoContactTest@3e2e18f2]" started-at="2026-07-06T12:34:51 UTC" name="setup" finished-at="2026-07-06T12:34:52 UTC" duration-ms="256" status="FAIL">
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Response code 500. Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause. 
-Host info: host: 'runnervmkkn4f', ip: '10.1.0.178'
-Build info: version: '4.26.0', revision: '8ccf0219d7'
-System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.17.0-1018-azure', java.version: '17.0.19'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}]}]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause. 
-Host info: host: 'runnervmkkn4f', ip: '10.1.0.178'
-Build info: version: '4.26.0', revision: '8ccf0219d7'
-System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.17.0-1018-azure', java.version: '17.0.19'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}]}]
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
-at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:51)
-at com.base.BaseTest.setup(BaseTest.java:19)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:569)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyContactDetailsUpdate()[pri:0, instance:com.orangehrm.tests.MyInfoContactTest@3e2e18f2]" started-at="2026-07-06T12:34:52 UTC" name="verifyContactDetailsUpdate" finished-at="2026-07-06T12:34:52 UTC" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Response code 500. Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause. 
-Host info: host: 'runnervmkkn4f', ip: '10.1.0.178'
-Build info: version: '4.26.0', revision: '8ccf0219d7'
-System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.17.0-1018-azure', java.version: '17.0.19'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}]}]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause. 
-Host info: host: 'runnervmkkn4f', ip: '10.1.0.178'
-Build info: version: '4.26.0', revision: '8ccf0219d7'
-System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.17.0-1018-azure', java.version: '17.0.19'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}]}]
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
-at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:51)
-at com.base.BaseTest.setup(BaseTest.java:19)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:569)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyContactDetailsUpdate -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.tests.MyInfoContactTest@3e2e18f2]" started-at="2026-07-06T12:34:52 UTC" name="tearDown" finished-at="2026-07-06T12:34:52 UTC" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.orangehrm.tests.MyInfoContactTest -->
-    </test> <!-- Contact_Details_Test -->
+      </class> <!-- com.orangehrm.tests.MyInfoTest -->
+    </test> <!-- MyInfo_Test -->
   </suite> <!-- MyInfo_Module_Suite -->
 </testng-results>

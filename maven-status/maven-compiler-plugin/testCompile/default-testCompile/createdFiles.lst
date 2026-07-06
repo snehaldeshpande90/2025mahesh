@@ -1,7 +1,4 @@
-com/orangehrm/pages/LoginPage.class
-com/orangehrm/pages/PersonalDetailsPage.class
-com/orangehrm/tests/MyInfoContactTest.class
-com/orangehrm/pages/ContactDetailsPage.class
 com/base/BaseTest.class
-com/orangehrm/tests/LoginTest.class
-com/orangehrm/tests/MyInfoPersonalTest.class
+com/orangehrm/pages/LoginPage.class
+com/orangehrm/tests/MyInfoTest.class
+com/orangehrm/pages/PersonalDetailsPage.class

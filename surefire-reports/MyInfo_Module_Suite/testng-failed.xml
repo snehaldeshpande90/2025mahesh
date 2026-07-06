@@ -1,26 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [MyInfo_Module_Suite]" guice-stage="DEVELOPMENT" verbose="0">
-  <test thread-count="5" name="Personal_Details_Test(failed)" verbose="0">
+  <test thread-count="5" name="MyInfo_Test(failed)" verbose="0">
     <classes>
-      <class name="com.orangehrm.tests.MyInfoPersonalTest">
+      <class name="com.orangehrm.tests.MyInfoTest">
         <methods>
           <include name="tearDown"/>
+          <include name="setup"/>
           <include name="verifyPersonalDetailsUpdate"/>
-          <include name="setup"/>
         </methods>
-      </class> <!-- com.orangehrm.tests.MyInfoPersonalTest -->
+      </class> <!-- com.orangehrm.tests.MyInfoTest -->
     </classes>
-  </test> <!-- Personal_Details_Test(failed) -->
-  <test thread-count="5" name="Contact_Details_Test(failed)" verbose="0">
-    <classes>
-      <class name="com.orangehrm.tests.MyInfoContactTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setup"/>
-          <include name="verifyContactDetailsUpdate"/>
-        </methods>
-      </class> <!-- com.orangehrm.tests.MyInfoContactTest -->
-    </classes>
-  </test> <!-- Contact_Details_Test(failed) -->
+  </test> <!-- MyInfo_Test(failed) -->
 </suite> <!-- Failed suite [MyInfo_Module_Suite] -->

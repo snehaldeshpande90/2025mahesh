@@ -9,15 +9,12 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">MyInfo_Module_Suite</th></tr>
-<tr><td><a href="#t0">Personal_Details_Test</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">0</td><td class="num">6,992</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">Contact_Details_Test</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">0</td><td class="num">260</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">0</th><th class="num attn">2</th><th class="num">0</th><th class="num">0</th><th class="num">7,252</th><th colspan="2"></th></tr>
+<tr><td><a href="#t0">MyInfo_Test</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">0</td><td class="num">2,791</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">MyInfo_Module_Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Personal_Details_Test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.orangehrm.tests.MyInfoPersonalTest</td><td><a href="#m0">setup</a></td><td rowspan="1">1783341284971</td><td rowspan="1">6955</td></tr><tr><th colspan="4">Personal_Details_Test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">com.orangehrm.tests.MyInfoPersonalTest</td><td><a href="#m1">tearDown</a></td><td rowspan="1">1783341291933</td><td rowspan="1">0</td></tr><tr><th colspan="4">Personal_Details_Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.orangehrm.tests.MyInfoPersonalTest</td><td><a href="#m2">verifyPersonalDetailsUpdate</a></td><td rowspan="1">1783341291932</td><td rowspan="1">0</td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">Contact_Details_Test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.orangehrm.tests.MyInfoContactTest</td><td><a href="#m3">setup</a></td><td rowspan="1">1783341291953</td><td rowspan="1">256</td></tr><tr><th colspan="4">Contact_Details_Test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">com.orangehrm.tests.MyInfoContactTest</td><td><a href="#m4">tearDown</a></td><td rowspan="1">1783341292212</td><td rowspan="1">0</td></tr><tr><th colspan="4">Contact_Details_Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.orangehrm.tests.MyInfoContactTest</td><td><a href="#m5">verifyContactDetailsUpdate</a></td><td rowspan="1">1783341292211</td><td rowspan="1">0</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">MyInfo_Module_Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">MyInfo_Test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.orangehrm.tests.MyInfoTest</td><td><a href="#m0">setup</a></td><td rowspan="1">1783350170201</td><td rowspan="1">2757</td></tr><tr><th colspan="4">MyInfo_Test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">com.orangehrm.tests.MyInfoTest</td><td><a href="#m1">tearDown</a></td><td rowspan="1">1783350172965</td><td rowspan="1">0</td></tr><tr><th colspan="4">MyInfo_Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.orangehrm.tests.MyInfoTest</td><td><a href="#m2">verifyPersonalDetailsUpdate</a></td><td rowspan="1">1783350172963</td><td rowspan="1">0</td></tr></tbody>
 </table>
-<h2>Personal_Details_Test</h2><h3 id="m0">com.orangehrm.tests.MyInfoPersonalTest#setup</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause. 
-Host info: host: &apos;runnervmkkn4f&apos;, ip: &apos;10.1.0.178&apos;
+<h2>MyInfo_Test</h2><h3 id="m0">com.orangehrm.tests.MyInfoTest#setup</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause. 
+Host info: host: &apos;runnervmkkn4f&apos;, ip: &apos;10.1.0.93&apos;
 Build info: version: &apos;4.26.0&apos;, revision: &apos;8ccf0219d7&apos;
 System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.17.0-1018-azure&apos;, java.version: &apos;17.0.19&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
@@ -35,12 +32,12 @@ Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goo
 	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:88)
 	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:83)
 	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:51)
-	at com.base.BaseTest.setup(BaseTest.java:19)
+	at com.base.BaseTest.setup(BaseTest.java:16)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.orangehrm.tests.MyInfoPersonalTest#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.orangehrm.tests.MyInfoPersonalTest#verifyPersonalDetailsUpdate</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause. 
-Host info: host: &apos;runnervmkkn4f&apos;, ip: &apos;10.1.0.178&apos;
+<h3 id="m1">com.orangehrm.tests.MyInfoTest#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.orangehrm.tests.MyInfoTest#verifyPersonalDetailsUpdate</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause. 
+Host info: host: &apos;runnervmkkn4f&apos;, ip: &apos;10.1.0.93&apos;
 Build info: version: &apos;4.26.0&apos;, revision: &apos;8ccf0219d7&apos;
 System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.17.0-1018-azure&apos;, java.version: &apos;17.0.19&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
@@ -58,52 +55,7 @@ Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goo
 	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:88)
 	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:83)
 	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:51)
-	at com.base.BaseTest.setup(BaseTest.java:19)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Contact_Details_Test</h2><h3 id="m3">com.orangehrm.tests.MyInfoContactTest#setup</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause. 
-Host info: host: &apos;runnervmkkn4f&apos;, ip: &apos;10.1.0.178&apos;
-Build info: version: &apos;4.26.0&apos;, revision: &apos;8ccf0219d7&apos;
-System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.17.0-1018-azure&apos;, java.version: &apos;17.0.19&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}]}]
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
-	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:88)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:83)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:51)
-	at com.base.BaseTest.setup(BaseTest.java:19)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">com.orangehrm.tests.MyInfoContactTest#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">com.orangehrm.tests.MyInfoContactTest#verifyContactDetailsUpdate</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause. 
-Host info: host: &apos;runnervmkkn4f&apos;, ip: &apos;10.1.0.178&apos;
-Build info: version: &apos;4.26.0&apos;, revision: &apos;8ccf0219d7&apos;
-System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.17.0-1018-azure&apos;, java.version: &apos;17.0.19&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}]}]
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
-	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:88)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:83)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:51)
-	at com.base.BaseTest.setup(BaseTest.java:19)
+	at com.base.BaseTest.setup(BaseTest.java:16)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
