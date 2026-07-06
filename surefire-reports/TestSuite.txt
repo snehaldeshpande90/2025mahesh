@@ -1,11 +1,11 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 2, Errors: 0, Skipped: 4, Time elapsed: 3.725 s <<< FAILURE! -- in TestSuite
-com.orangehrm.tests.MyInfoPersonalTest.setup -- Time elapsed: 3.401 s <<< FAILURE!
+Tests run: 6, Failures: 2, Errors: 0, Skipped: 4, Time elapsed: 7.884 s <<< FAILURE! -- in TestSuite
+com.orangehrm.tests.MyInfoPersonalTest.setup -- Time elapsed: 7.522 s <<< FAILURE!
 org.openqa.selenium.SessionNotCreatedException: 
 Could not start a new session. Response code 500. Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause. 
-Host info: host: 'runnervmkkn4f', ip: '10.1.0.137'
+Host info: host: 'runnervmkkn4f', ip: '10.1.0.178'
 Build info: version: '4.26.0', revision: '8ccf0219d7'
 System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.17.0-1018-azure', java.version: '17.0.19'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
@@ -61,10 +61,10 @@ Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goo
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 
-com.orangehrm.tests.MyInfoContactTest.setup -- Time elapsed: 0.255 s <<< FAILURE!
+com.orangehrm.tests.MyInfoContactTest.setup -- Time elapsed: 0.278 s <<< FAILURE!
 org.openqa.selenium.SessionNotCreatedException: 
 Could not start a new session. Response code 500. Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause. 
-Host info: host: 'runnervmkkn4f', ip: '10.1.0.137'
+Host info: host: 'runnervmkkn4f', ip: '10.1.0.178'
 Build info: version: '4.26.0', revision: '8ccf0219d7'
 System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.17.0-1018-azure', java.version: '17.0.19'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
