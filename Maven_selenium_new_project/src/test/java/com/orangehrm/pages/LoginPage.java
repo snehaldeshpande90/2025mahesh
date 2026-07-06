@@ -8,7 +8,7 @@ package com.orangehrm.pages;
 	    WebDriver driver;
 
 	    // वेबपेजवरील एलिमेंट्सचे लोकेटर्स (Locators)
-	    By username = By.name("username");
+	    By username = By.xpath("//input[@name='firstName']");
 	    By password = By.name("password");
 	    By loginBtn = By.tagName("button");
 
