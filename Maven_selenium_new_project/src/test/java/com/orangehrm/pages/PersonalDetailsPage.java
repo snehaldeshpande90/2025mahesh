@@ -1,5 +1,5 @@
 package com.orangehrm.pages;
-
+import org.openqa.selenium.Keys; // हे इम्पोर्ट ॲड करा
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -18,11 +18,18 @@ public class PersonalDetailsPage {
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(20));
     }
 
+    
+
     public void updateFirstName(String name) {
         wait.until(ExpectedConditions.visibilityOfElementLocated(firstNameField));
-        driver.findElement(firstNameField).clear();
+        
+        // Ctrl + A दाबून सिलेक्ट करा आणि मग Backspace दाबा
+        driver.findElement(firstNameField).sendKeys(Keys.CONTROL + "a");
+        driver.findElement(firstNameField).sendKeys(Keys.BACK_SPACE);
+        
         driver.findElement(firstNameField).sendKeys(name);
     }
+    
 
     public void clickSave() {
         wait.until(ExpectedConditions.elementToBeClickable(saveBtn));
