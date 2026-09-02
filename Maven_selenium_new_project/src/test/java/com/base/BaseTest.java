@@ -8,21 +8,21 @@ import java.time.Duration;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseTest {
-    public WebDriver driver;
+	public WebDriver driver;
 
-    @BeforeMethod
-    public void setup() {
-        WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();
-        driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
-        driver.get("https://opensource-demo.orangehrmlive.com/");
-    }
+	@BeforeMethod
+	public void setup() {
+		WebDriverManager.chromedriver().setup();
+		driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+		driver.get("https://opensource-demo.orangehrmlive.com/");
+	}
 
-    @AfterMethod
-    public void tearDown() {
-        if (driver != null) {
-            //driver.quit();
-        }
-    }
+	@AfterMethod
+	public void tearDown() {
+		if (driver != null) {
+			// driver.quit();
+		}
+	}
 }
