@@ -1,11 +1,11 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 5.579 s <<< FAILURE! - in TestSuite
-com.orangehrm.tests.MyInfoTest.setup  Time elapsed: 5.503 s  <<< FAILURE!
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 3.081 s <<< FAILURE! - in TestSuite
+com.orangehrm.tests.MyInfoTest.setup  Time elapsed: 2.979 s  <<< FAILURE!
 org.openqa.selenium.SessionNotCreatedException: 
 Could not start a new session. Response code 500. Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause. 
-Host info: host: 'runnervmgx7h7', ip: '10.1.0.234'
+Host info: host: 'runnervmgx7h7', ip: '10.1.0.151'
 Build info: version: '4.26.0', revision: '8ccf0219d7'
 System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.17.0-1022-azure', java.version: '17.0.20.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
