@@ -21,6 +21,6 @@ public class MyInfoTest extends BaseTest { // BaseTest कडून गुणध
 		// ३. पर्सनल डिटेल्स अपडेट करा
 		PersonalDetailsPage personalPage = new PersonalDetailsPage(driver); // पर्सनल डिटेल्स पेजचा ऑब्जेक्ट बनवतो
 		personalPage.updateFirstName("Mahesh"); // नाव बदलण्यासाठी मेथड कॉल करतो
-		personalPage.clickSave();// सेव्ह बटणावर क्लिक करतो
+		personalPage.clickSave();;// सेव्ह बटणावर क्लिक करतो
 	}
 }
